@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Things Im Grateful for</title>
+	<!-- CSS Import -->
+	<link rel="stylesheet" href="../CSS/goalJotter.css" />
+	<!-- End of CSS Import -->
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+	<!-- End of Fonts -->
+</head>
+<body>
+	<!-- App Wrapper -->
+	<main class="app">
+		<!-- Greeting -->
+		<section class="greeting">
+			<h2 class="title">
+				What's up, <input type="text" id="name" placeholder="Name here" />
+			</h2>
+		</section>
+		<!-- End of Greeting -->
+		
+		<!-- New Todo -->
+		<section class="create-list">
+			<h3>WHAT AM I GRATEFUL FOR ?</h3>
+			<form id="new-gr8-form">
+				<h4>What's on your mind?</h4>
+				<input 
+					type="text" 
+					placeholder="e.g. Im grateful for my family"
+					name="content"
+					id="content" />
+				
+				<h4>Pick a category</h4>
+				<div class="options">
+					<label>
+						<input type="radio" name="category" id="category1" value="In" /> 
+						<span class="bubble in"></span>
+						<div>In</div>
+					</label>
+					<label>
+						<input type="radio" name="category" id="category2" value="Out" />
+						<span class="bubble out"></span>
+						<div>Out</div>
+					</label>
+				</div>
+
+				<input type="submit" value="Add To List" />
+			</form>
+		</section>
+		<!-- End of New Todo -->
+
+		<!-- Todo List -->
+		<section class="appreciation-list">
+			<h3>Im grateful for:</h3>
+			<div class="list" id="appreciation-list"></div>
+		</section>
+		<!-- End of Todo List -->
+
+	</main>
+	<!-- End of App Wrapper -->
+
+	<!-- JS Import -->
+	<script src="../JavaScript/goalJotter.js"></script>
+	<!-- End of JS Import -->
+</body>
+</html>
