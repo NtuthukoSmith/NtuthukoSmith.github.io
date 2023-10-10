@@ -389,7 +389,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills{
-  background: transparent;
+  background: #f5f8fd;
 }
 .skills .progress {
   height: 50px;
