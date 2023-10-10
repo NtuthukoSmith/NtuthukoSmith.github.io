@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: #42d59d;
   transition: background 0.2s ease-in-out;
 }
 
@@ -892,7 +892,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #37b3ed;
+  background: #42d59d;
 }
 
 @-webkit-keyframes animate-loading {
