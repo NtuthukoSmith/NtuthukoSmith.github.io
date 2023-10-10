@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #0c2d00;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #212431;
+  color: #1e6147;
 }
 
 /* Mobile Navigation */
@@ -359,7 +359,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #0c2d00;
   margin-left: 60px;
 }
 
@@ -764,14 +764,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #0c2d00;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #0c2d00;
 }
 
 .contact .info .email p {
