@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #fcb1b1;
+  border-bottom: 3px solid #42d59d;
 }
 
 @media (min-width: 1024px) {
